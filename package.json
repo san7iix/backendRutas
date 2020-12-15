@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cd src && nodemon index.js",
-	"start" : "node index.js"
+	"start" : "cd src && node index.js"
   },
   "repository": {
     "type": "git",
