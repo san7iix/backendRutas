@@ -1,0 +1,32 @@
+{
+  "name": "proyectorutas",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de publicación de rutas para la materia Desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd src && nodemon index.js",
+	"start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/san7iix/proyectoMotos.git"
+  },
+  "keywords": [
+    "rutas",
+    "unimagdalena"
+  ],
+  "author": "JoseDavid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/san7iix/proyectoMotos/issues"
+  },
+  "homepage": "https://github.com/san7iix/proyectoMotos#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "react-awesome-slider": "^4.1.0"
+  }
+}
